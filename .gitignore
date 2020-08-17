@@ -1,27 +1,17 @@
-# Jekyll and Ruby specific.
-.sass-cache
-_site/*
+# hidden files
+.*
+
+# python compiled files
+*.pyc
+
+# jekyll debug
+_site
+
+# Jeykll Gemfile.lock
 Gemfile.lock
-Gemfile
 
-# Bundler related.
-.bundle
-vendor/bundle/
+# yui-compressor
+*.jar
 
-# Other.
-*.orig
-*.core
-*.rej
-*~
-*.swp
-*.log
-*.tmp
-*.bak
-.*\#.*\#$
-
-# OS garbage.
-Thumbs.db
-.DS_Store
-
-# IntelliJ IDEA
-.idea/*
+# bundle cache
+vendor
